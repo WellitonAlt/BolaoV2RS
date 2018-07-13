@@ -1,0 +1,23 @@
+{
+  "name": "bolao-da-copa-v2-front-end",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "classnames": "^2.2.6",
+    "font-awesome": "^4.7.0",
+    "primereact": "^2.0.0-alpha.1",
+    "react": "^16.4.1",
+    "react-bootstrap-combobox": "^3.0.1",
+    "react-dom": "^16.4.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "react-select": "^1.2.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
