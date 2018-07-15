@@ -143,7 +143,7 @@ class PalpiteForm extends React.Component {
                             </div>
                         </div>
 
-                        <div className={this.state.estado.camposDadosPalpiteDestaque ? 'form-group has-success' : 'form-group'}>
+                        <div className='form-group'>
                             <label className="col-sm-2 control-label" htmlFor="campeao">Campeão</label>
                             <div className="col-sm-4">
                                     <select 
@@ -202,7 +202,7 @@ class PalpiteForm extends React.Component {
                             <div className="col-sm-4">
                                 {this.state.estado.campoConfirmacaoSenhaVisivel && (
                                     <input type="password"
-                                        className={this.state.mensagensValidacao['valido']}
+                                        className={this.state.bordaValidacao['confirmarSenha']}
                                         name="confirmarSenha"
                                         label="Confirmação de senha"
                                         value={this.state.confirmarSenha}
@@ -212,7 +212,7 @@ class PalpiteForm extends React.Component {
                                 <span className="text text-danger">{this.state.mensagensValidacao['confirmarSenha']}</span>
                             </div>
                         </div>
-                        <div className={this.state.estado.camposDadosPalpiteDestaque ? 'form-group has-success' : 'form-group'}>
+                        <div className= 'form-group'>
                             <div className="col-sm-6">
                                 {this.state.estado.botaoConfirmarPalpiteVisivel && (
                                     <a type="submit"
